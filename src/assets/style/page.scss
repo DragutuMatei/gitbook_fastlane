@@ -1,0 +1,116 @@
+@import "./base";
+.page {
+  width: 100%;
+  padding-left: 350px;
+  color: $white;
+  padding-top: 90px;
+  .content {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 2rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+
+    .ans {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      position: relative;
+
+      h3 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+      }
+      p {
+        text-indent: 47px;
+        line-height: 1.7;
+        margin-bottom: 15px;
+        margin-top: 16px;
+      }
+    }
+    .title {
+      font-size: 30px;
+      margin-bottom: 30px;
+      margin-top: 15px;
+    }
+
+    .s-sub {
+      font-size: 23px;
+      margin: 0;
+      margin-top: 7px;
+      margin-bottom: 20px;
+    }
+    p {
+      text-indent: 20px;
+      line-height: 1.7;
+      margin-bottom: 15px;
+    }
+    img {
+      margin: 20px 15px;
+      width: 100%;
+      align-self: center;
+    }
+    .links {
+      width: 100%;
+      border-top: 2px solid $light_gray;
+      padding-top: 15px;
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .c {
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        svg {
+          color: $white;
+          font-size: 22px;
+        }
+
+        span {
+          font-weight: 600;
+          font-size: 18px;
+          margin: 0 10px;
+        }
+        #back {
+          color: $green;
+        }
+        #forw {
+          color: $purple;
+        }
+      }
+    }
+  }
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background: $dark_green;
+  margin: 15px 8px 40px 8px;
+}
+
+.center_links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  svg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: $purple;
+    color: white;
+    padding: 10px;
+  }
+}
+
+@import "./resize";
