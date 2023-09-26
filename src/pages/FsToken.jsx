@@ -3,7 +3,7 @@ import "../assets/style/page.scss";
 import { Link } from "react-router-dom";
 import Links from "../components/Links";
 
-function FsToken({ width, setWidth}) {
+function FsToken({ width, setWidth }) {
   return (
     <div
       className="page"
@@ -22,8 +22,8 @@ function FsToken({ width, setWidth}) {
             FastLane platform
           </Link>
           . Designed for transparency and security, it incentivizes active
-          community participation across various decentralized networks. FS
-          Token is building robust, connected, and thriving digital communities.
+          community participation across various social networks. FS Token is
+          building robust, connected, and thriving digital communities.
         </p>
         <h3 className="title" id="token-utility">
           Token Utility
@@ -55,10 +55,7 @@ function FsToken({ width, setWidth}) {
           built on fairness and transparency. Users can trust that their
           contributions will be recognized and rewarded appropriately.
         </p>
-        <Links
-          back={"/#info"}
-          forw={"/comunity/#comunity-building"}
-        />
+        <Links back={"/#info"} forw={"/comunity/#comunity-building"} />
       </div>
     </div>
   );

@@ -41,7 +41,7 @@ function UseCase({ width, setWidth }) {
           consistent interaction and feedback.
         </p>
         <p className="p1">
-          <span className="special gree">Collaborate with community:</span> Use{" "}
+          <span className="special green">Collaborate with community:</span> Use{" "}
           <Link className="link" to="/">
             FastLane
           </Link>{" "}

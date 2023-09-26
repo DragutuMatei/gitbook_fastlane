@@ -134,35 +134,28 @@ function Navbar({ width, widthh, setWidth }) {
           <HashLink to="/fs-token/#info2" className="title">
             fs token
           </HashLink>
-          <HashLink
+          {/* <HashLink
             className="hashLink"
             onClick={() => subclick(1)}
             to="/fs-token/#info2"
           >
             fs token
           </HashLink>
-          {/* <HashLink
-            className="hashLink"
-            to="/fs-token"
-            onClick={() => subclick(3)}
-          >
-            tokenomics
-          </HashLink> */}
           <HashLink
             className="hashLink"
             to="/fs-token/#token-utility"
             onClick={() => subclick(2)}
           >
             token utility
-          </HashLink>
+          </HashLink> */}
         </section>
-        <section onClick={() => click(2)}>
+        <section onClick={() => click(1)}>
           <HashLink to="/comunity/#comunity-building" className="title">
             community building
           </HashLink>
           <HashLink
             className="hashLink"
-            onClick={() => subclick(3)}
+            onClick={() => subclick(1)}
             to="/comunity/#comunity-building"
           >
             create your community
@@ -170,28 +163,28 @@ function Navbar({ width, widthh, setWidth }) {
           <HashLink
             className="hashLink"
             to="/comunity/#campain-board"
-            onClick={() => subclick(4)}
+            onClick={() => subclick(2)}
           >
             campaign board
           </HashLink>
           <HashLink
             className="hashLink"
             to="/comunity/#types"
-            onClick={() => subclick(5)}
+            onClick={() => subclick(3)}
           >
             types of missions/tasks
           </HashLink>
           <HashLink
             className="hashLink"
             to="/comunity/#integrations"
-            onClick={() => subclick(6)}
+            onClick={() => subclick(4)}
           >
             integrations (with discord/telegram/twitter)
           </HashLink>
           <HashLink
             className="hashLink"
             to="/comunity/#roles"
-            onClick={() => subclick(7)}
+            onClick={() => subclick(5)}
           >
             roles (admins/reviewers/users)
           </HashLink>

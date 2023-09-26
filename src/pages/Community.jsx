@@ -3,7 +3,7 @@ import Links from "../components/Links";
 import { Link } from "react-router-dom";
 import "../assets/style/page.scss";
 
-function Community({ width, setWidth}) {
+function Community({ width, setWidth }) {
   return (
     <div
       className="page"
@@ -17,7 +17,7 @@ function Community({ width, setWidth}) {
       <div className="content">
         <h3 className="title">Community Building</h3>
         <p className="p1">
-          At every successful digital venture lies a strong community.{" "}
+          On every successful digital venture lies a strong community.{" "}
           <Link to={"/"} className="link">
             FastLane
           </Link>{" "}
@@ -63,9 +63,9 @@ function Community({ width, setWidth}) {
         <h3 className="title s-sub">Benefits:</h3>
         <div id="campain-board"></div>
         <p className="p1">
-          A dedicated enclave ensures members resonate deeply with your
-          project’s mission, fostering focused interactions and building a
-          foundational base for genuine growth.
+          Having a dedicated space for your community ensures that members are
+          deeply aligned with your project's goals. This promotes meaningful
+          interactions and lays a strong foundation for authentic growth.
         </p>
         <h3 className="title">Campaign Board</h3>
         <div className="text_box">
@@ -292,10 +292,7 @@ function Community({ width, setWidth}) {
             set by the project founder.{" "}
           </p>
         </div>
-        <Links
-          back={"/fs-token/#info2"}
-          forw={"/usecase/#usecase"}
-        />
+        <Links back={"/fs-token/#info2"} forw={"/usecase/#usecase"} />
       </div>
     </div>
   );
