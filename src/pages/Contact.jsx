@@ -25,13 +25,13 @@ function Contact({ width, setWidth }) {
           the way.
         </p>
         <div className="center_links">
-          <Link to={""}>
+          <a href={"mailto: twitter@fastlane.buzz"}>
             <MdEmail />
-          </Link>
+          </a>
           <Link to={""}>
             <BsTelegram />
           </Link>
-          <Link to={""}>
+          <Link to={"https://twitter.com/fstlaneapp"}>
             <FaTwitter />
           </Link>
         </div>
