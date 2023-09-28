@@ -59,9 +59,9 @@ function FAQ({ width, setWidth }) {
           <p className="p1">
             Users can connect their Metamask wallets, link their social
             accounts, and then browse available tasks. After selecting a task,
-            they engage with the community, complete the task {"("}e.g., tweets,
-            Discord interactions{")"}, and then await token rewards after
-            verification.{" "}
+            they engage with the community, complete the task (e.g., tweets,
+            Discord interactions), and then await token rewards after
+            verification.
           </p>
         </div>
         <div className="line" />
@@ -77,7 +77,7 @@ function FAQ({ width, setWidth }) {
             Absolutely! Users can trust in the fairness of the FS Token
             distribution system. The transparent nature of the blockchain,
             combined with the verifiable actions through smart contracts,
-            assures users that their efforts will be justly rewarded.{" "}
+            assures users that their efforts will be justly rewarded.
           </p>
         </div>
         <div className="line" />
@@ -93,7 +93,7 @@ function FAQ({ width, setWidth }) {
             Yes, FastLane offers a high level of customization. Creators can
             design tasks to cater specifically to their project's needs,
             ensuring that every interaction is meaningful and aligns with their
-            objectives.{" "}
+            objectives.
           </p>
         </div>
         <div className="line" />
@@ -126,16 +126,10 @@ function FAQ({ width, setWidth }) {
             provide you with the best FastLane experience!
           </p>
         </div>
-        <Links
-          back={"/usecase/#usecase"}
-          forw={"/contact"}
-        />
+        <Links back={"/usecase/#usecase"} forw={"/contact"} />
       </div>
     </div>
   );
 }
 
 export default FAQ;
-
-
-
