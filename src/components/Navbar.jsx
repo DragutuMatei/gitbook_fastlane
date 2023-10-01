@@ -10,20 +10,16 @@ function Navbar({ width, widthh, setWidth }) {
   const choseId = (id) => {
     if (id == "#info") {
       return 0;
-    } else if (id == "#info2") {
-      return 1;
-    } else if (id == "#token-utility") {
-      return 2;
     } else if (id == "#comunity-building") {
-      return 3;
+      return 1;
     } else if (id == "#campain-board") {
-      return 4;
+      return 2;
     } else if (id == "#integrations") {
-      return 6;
+      return 4;
     } else if (id == "#roles") {
-      return 7;
-    } else if (id == "#types") {
       return 5;
+    } else if (id == "#types") {
+      return 3;
     }
   };
 
@@ -131,25 +127,6 @@ function Navbar({ width, widthh, setWidth }) {
           </HashLink>
         </section>
         <section onClick={() => click(1)}>
-          <HashLink to="/fs-token/#info2" className="title">
-            fs token
-          </HashLink>
-          {/* <HashLink
-            className="hashLink"
-            onClick={() => subclick(1)}
-            to="/fs-token/#info2"
-          >
-            fs token
-          </HashLink>
-          <HashLink
-            className="hashLink"
-            to="/fs-token/#token-utility"
-            onClick={() => subclick(2)}
-          >
-            token utility
-          </HashLink> */}
-        </section>
-        <section onClick={() => click(1)}>
           <HashLink to="/comunity/#comunity-building" className="title">
             community building
           </HashLink>
@@ -187,6 +164,11 @@ function Navbar({ width, widthh, setWidth }) {
             onClick={() => subclick(5)}
           >
             roles (admins/reviewers/users)
+          </HashLink>
+        </section>{" "}
+        <section onClick={() => click(2)}>
+          <HashLink to="/fs-token/#info2" className="title">
+            fs token
           </HashLink>
         </section>
         <section onClick={() => click(3)}>
