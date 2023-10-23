@@ -28,7 +28,7 @@ function Contact({ width, setWidth }) {
           <a href={"mailto: twitter@fastlane.buzz"}>
             <MdEmail />
           </a>
-          <Link to={""}>
+          <Link to={"https://t.me/fastlaneportal"}>
             <BsTelegram />
           </Link>
           <Link to={"https://twitter.com/fstlaneapp"}>
